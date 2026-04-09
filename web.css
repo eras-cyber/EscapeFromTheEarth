@@ -1,0 +1,56 @@
+/* 设置整体背景为深色科幻风格 */
+body {
+    background-color: #0b0e14; /* 深黑色背景 */
+    color: #e0e0e0;            /* 浅灰色文字，易于阅读 */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+}
+
+/* 美化你之前使用的表格容器 */
+table {
+    border-collapse: separate;
+    border-spacing: 20px;
+    background: rgba(255, 255, 255, 0.03); /* 半透明背景 */
+    border: 1px solid #1a2a44;           /* 科技感的暗蓝边框 */
+    border-radius: 12px;                  /* 圆角处理 */
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5); /* 增加阴影深度 */
+    margin: auto;
+}
+
+/* 强调游戏标题 */
+b u {
+    text-decoration: none;
+    color: #00d4ff;           /* 霓虹蓝色 */
+    font-size: 1.5em;
+    text-shadow: 0 0 10px rgba(0, 212, 255, 0.5); /* 标题发光效果 */
+}
+
+/* 美化链接按钮 */
+a {
+    color: #00ffcc;           /* 蓝绿色链接 */
+    text-decoration: none;
+    border: 1px solid #00ffcc;
+    padding: 5px 15px;
+    border-radius: 20px;
+    transition: all 0.3s ease; /* 增加平滑的动画效果 */
+}
+
+a:hover {
+    background-color: #00ffcc;
+    color: #121212;            /* 鼠标悬停时反色 */
+    box-shadow: 0 0 15px #00ffcc;
+}
+
+/* 响应式图片处理 */
+img {
+    border-radius: 8px;
+    filter: brightness(0.9);
+    transition: transform 0.3s;
+}
+
+img:hover {
+    transform: scale(1.05);   /* 鼠标移动到截图上时轻微放大 */
+    filter: brightness(1.1);
+}
